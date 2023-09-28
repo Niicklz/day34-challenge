@@ -10,7 +10,7 @@ export const App = () => {
   const handleInterval = () => {
     if (intervalActive) {
       setCounter((prevCounter) => (prevCounter - 1) % 5);
-      console.log(counter);
+     
 
       if (counter === 0) {
         clearInterval(intervalId);
